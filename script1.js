@@ -4,7 +4,7 @@ function placa_carro(){
   
     if (placa.length < 8 || placa.length > 8) {
       alert(
-        "Digite os números \n Exemplo : DVD-2020"
+        "Digite os números \n Exemplo : NNN-7516"
       );
     } else {
       var circular = placa.substring(7, 8);
